@@ -1,5 +1,29 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+}
+
+.date {
+  margin-left: 8px;
+}
+
+a {
+  @apply text-blue-400;
+}
+
+.message_container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+
 }
 
 .App-logo {
