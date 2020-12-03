@@ -3,7 +3,7 @@ import './tailwind.css';
 import data from './data.json'
 function App() {
   return (
-    <div className="App p-4 md:p-10 flex justify-center overflow-x-hidden">
+    <div className="App p-4 bg-gray-100 md:p-10 flex justify-center overflow-x-hidden">
         <div className="message_container">
           {data.map((item, index)  => (
             <div className="item hover:bg-gray-200 rounded-md mt-2" key={item.date + index}>
